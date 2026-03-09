@@ -62,7 +62,7 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#" className="shrink-0 relative rounded-lg overflow-hidden">
             <Image
-              src="/NewLogo.png"
+              src="/EduFlow 360 Logo.png"
               alt="EduFlow360"
               height={70}
               width={250}
@@ -126,11 +126,11 @@ export default function Navbar() {
               href="#contact"
               className="inline-flex items-center gap-2 px-7 py-3 rounded-full text-[12px] font-black tracking-[0.18em] uppercase text-white transition-all duration-300 hover:shadow-glow-blue-sm active:scale-95"
               style={{
-                background: "linear-gradient(135deg, #148be6 0%, #059669 100%)",
+                background: "linear-gradient(135deg, #148be6 0%, #0a6bbc 100%)",
                 boxShadow: "0 0 24px rgba(20,139,230,0.3), inset 0 1px 0 rgba(255,255,255,0.18)",
               }}
             >
-              Book a Call <ArrowUpRight className="w-3.5 h-3.5" />
+              Contact Us <ArrowUpRight className="w-3.5 h-3.5" />
             </a>
           </div>
 
@@ -194,15 +194,7 @@ export default function Navbar() {
                     className="inline-flex items-center gap-2 text-sm font-bold tracking-[0.18em] uppercase text-zinc-400 hover:text-white transition-colors"
                     onClick={() => setMobileOpen(false)}
                   >
-                    Visit ATS5E <ExternalLink className="w-3.5 h-3.5" />
-                  </a>
-                  <a
-                    href="#contact"
-                    className="inline-flex items-center gap-2 px-7 py-3 rounded-full text-[13px] font-black tracking-[0.18em] uppercase text-white"
-                    style={{ background: "linear-gradient(135deg, #148be6, #059669)" }}
-                    onClick={() => setMobileOpen(false)}
-                  >
-                    Book a Call <ArrowUpRight className="w-3.5 h-3.5" />
+                    Contact Us <ArrowUpRight className="w-3.5 h-3.5" />
                   </a>
                 </motion.div>
               </nav>

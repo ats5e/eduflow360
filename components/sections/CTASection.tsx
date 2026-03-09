@@ -43,7 +43,7 @@ export default function CTASection() {
                                 className="inline-flex items-center justify-center w-full sm:w-auto gap-2 px-10 py-4 rounded-full text-[13px] font-bold tracking-[0.14em] uppercase text-white transition-all duration-300 hover:shadow-glow-blue-sm"
                                 style={{ background: "#148be6" }}
                             >
-                                Start the Conversation <ArrowUpRight className="w-3.5 h-3.5" />
+                                Contact Us <ArrowUpRight className="w-3.5 h-3.5" />
                             </a>
                             <a href="#"
                                 className="inline-flex items-center justify-center w-full sm:w-auto gap-2 px-10 py-4 rounded-full text-[13px] font-bold tracking-[0.14em] uppercase text-zinc-300 bg-white/[0.05] border border-white/[0.1] hover:bg-white/[0.1] hover:text-white transition-all duration-300"
