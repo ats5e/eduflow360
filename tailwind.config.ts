@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       colors: {
         "ats-blue": "#148be6",
+        "ats-blue-light": "#74caff",
         "deep-black": "#050505",
       },
       fontFamily: {
@@ -21,11 +22,11 @@ const config: Config = {
         "wide-body": "0.08em",
       },
       boxShadow: {
-        "glow-blue":    "0 0 60px 12px rgba(20,139,230,0.35)",
+        "glow-blue": "0 0 60px 12px rgba(20,139,230,0.35)",
         "glow-blue-md": "0 0 32px  8px rgba(20,139,230,0.25)",
         "glow-blue-sm": "0 0 20px  4px rgba(20,139,230,0.18)",
         "glow-blue-xs": "0 0 10px  2px rgba(20,139,230,0.12)",
-        "card-lift":    "0 24px 64px rgba(0,0,0,0.9), 0 8px 24px rgba(0,0,0,0.6)",
+        "card-lift": "0 24px 64px rgba(0,0,0,0.9), 0 8px 24px rgba(0,0,0,0.6)",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

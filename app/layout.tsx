@@ -25,9 +25,9 @@ const september = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "ATS5E | Atlas",
+  title: "EduFlow360 | Powered by ATS5E",
   description:
-    "Experience. Empowerment. Efficiency. Execution. Evolution. The 5E Framework.",
+    "The intelligence layer that orchestrates your SIS, LMS, and ERP into one coordinated operation — delivering financial visibility, operational agility, and seamless student journeys.",
 };
 
 export default function RootLayout({

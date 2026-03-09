@@ -1,20 +1,22 @@
 import Image from "next/image";
-import Link from "next/link";
+import { ExternalLink } from "lucide-react";
 
-const COMPANY_LINKS = [
-  { label: "About Us", href: "/about" },
-  { label: "Featured Solutions", href: "/featured-solutions" },
-  { label: "Our Work", href: "/case-studies" },
-  { label: "Insights", href: "/insight" },
-  { label: "Partners", href: "/partners" },
+const SECTION_LINKS = [
+  { label: "The Challenge", href: "#challenge" },
+  { label: "The Solution", href: "#solution" },
+  { label: "Student Journey", href: "#journey" },
+  { label: "Two Pillars", href: "#pillars" },
+  { label: "Value Delivered", href: "#value" },
+  { label: "Case Studies", href: "#case-studies" },
+  { label: "Our DNA", href: "#dna" },
+  { label: "Roadmap", href: "#roadmap" },
 ];
 
-const FRAMEWORK_LINKS = [
-  { label: "Experience", href: "/5e-framework/experience" },
-  { label: "Empowerment", href: "/5e-framework/empowerment" },
-  { label: "Efficiency", href: "/5e-framework/efficiency" },
-  { label: "Execution", href: "/5e-framework/execution" },
-  { label: "Evolution", href: "/5e-framework/evolution" },
+const ATS5E_LINKS = [
+  { label: "ATS5E Home", href: "https://ats5e.vercel.app/" },
+  { label: "5E Framework", href: "https://ats5e.vercel.app/5e-framework" },
+  { label: "Solutions", href: "https://ats5e.vercel.app/featured-solutions" },
+  { label: "Contact ATS5E", href: "https://ats5e.vercel.app/contact" },
 ];
 
 export default function Footer() {
@@ -26,22 +28,32 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
         {/* Brand */}
         <div className="md:col-span-2 flex flex-col items-start">
-          <Link href="/" className="inline-flex -ml-[28px]">
+          <a href="#" className="inline-flex -ml-2">
             <Image
-              src="/logo.png"
-              alt="ATS5E"
-              height={60}
-              width={210}
-              className="h-14 w-auto object-contain opacity-100 mb-6"
+              src="/NewLogo.png"
+              alt="EduFlow360"
+              height={50}
+              width={200}
+              className="h-12 w-auto object-contain opacity-100 mb-6"
             />
-          </Link>
-          <p className="text-sm font-medium leading-relaxed text-zinc-300 max-w-sm">
-            We are a specialist execution partner for forward-thinking
-            enterprises operating at the intersection of strategy, technology,
-            and transformation. We work quietly behind the scenes to help
-            organisations evolve, accelerate, and outperform.
+          </a>
+          <p className="text-sm font-medium leading-relaxed text-zinc-300 max-w-sm mb-3">
+            EduFlow360 is the intelligence layer that orchestrates your SIS, LMS, and ERP
+            into one coordinated operation — delivering financial visibility, operational
+            agility, and seamless student journeys.
           </p>
-          <div className="mt-6 flex flex-col gap-2">
+          <p className="text-xs font-medium text-zinc-500 mb-6">
+            Powered by{" "}
+            <a
+              href="https://ats5e.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#148be6] hover:text-[#74caff] transition-colors inline-flex items-center gap-1"
+            >
+              ATS5E <ExternalLink className="w-3 h-3" />
+            </a>
+          </p>
+          <div className="flex flex-col gap-2">
             <a
               href="mailto:info@ats5e.com"
               className="text-sm text-zinc-300 hover:text-white transition-colors font-medium"
@@ -57,38 +69,40 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Company */}
+        {/* Sections */}
         <div>
           <h4 className="text-sm font-bold tracking-[0.28em] uppercase text-zinc-500 mb-6">
-            Company
+            Sections
           </h4>
           <nav className="flex flex-col gap-4">
-            {COMPANY_LINKS.map((l) => (
-              <Link
+            {SECTION_LINKS.map((l) => (
+              <a
                 key={l.label}
                 href={l.href}
                 className="text-sm text-zinc-300 hover:text-white transition-colors font-medium"
               >
                 {l.label}
-              </Link>
+              </a>
             ))}
           </nav>
         </div>
 
-        {/* 5E Framework */}
+        {/* ATS5E */}
         <div>
           <h4 className="text-sm font-bold tracking-[0.28em] uppercase text-zinc-500 mb-6">
-            The 5E Framework
+            ATS5E
           </h4>
           <nav className="flex flex-col gap-4">
-            {FRAMEWORK_LINKS.map((l) => (
-              <Link
+            {ATS5E_LINKS.map((l) => (
+              <a
                 key={l.label}
                 href={l.href}
-                className="text-sm text-zinc-300 hover:text-white transition-colors font-medium"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-zinc-300 hover:text-white transition-colors font-medium inline-flex items-center gap-1.5"
               >
-                {l.label}
-              </Link>
+                {l.label} <ExternalLink className="w-3 h-3 text-zinc-600" />
+              </a>
             ))}
           </nav>
         </div>
@@ -99,7 +113,7 @@ export default function Footer() {
         style={{ borderTop: "1px solid rgba(255,255,255,0.06)" }}
       >
         <p className="text-sm tracking-[0.18em] uppercase text-zinc-500 font-medium">
-          © {new Date().getFullYear()} ATS5E. All Rights Reserved.
+          © {new Date().getFullYear()} EduFlow360 by ATS5E. All Rights Reserved.
         </p>
         <p className="text-sm tracking-[0.1em] uppercase text-zinc-500 font-medium">
           Dubai, UAE · Meydan Grandstand, 6th Floor
