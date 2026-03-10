@@ -47,22 +47,6 @@ export default function ChallengeSection() {
                             </p>
                         </div>
 
-                        <div className="mt-10 p-6 rounded-2xl border-metallic text-sm leading-relaxed text-zinc-300">
-                            <p>
-                                This is the <strong>Coordination Tax</strong> — the hidden operational cost of systems that work in isolation instead of concert. It compounds quietly across every intake cycle: in delayed cash, missed interventions, manual controls, and transformation initiatives that stall before they deliver.
-                            </p>
-                            <p className="mt-4">
-                                For institutions managing thousands of students across multiple campuses, currencies, and regulatory frameworks, this tax is not a minor overhead. It is a structural drag on growth, governance, and student experience.
-                            </p>
-                        </div>
-
-                        <div className="mt-8 rounded-2xl overflow-hidden border border-white/[0.05] shadow-2xl">
-                            <img
-                                src="/imagery/20251001_1704_Digital Silhouette_remix_01k6fxwevhfpytbf4bx4s4gfza.png"
-                                alt="Digital Coordination Concept"
-                                className="w-full h-[300px] object-cover opacity-80 hover:opacity-100 transition-opacity duration-500"
-                            />
-                        </div>
                     </motion.div>
 
                     <div className="lg:col-span-7">
@@ -97,6 +81,38 @@ export default function ChallengeSection() {
                         </div>
                     </div>
                 </div>
+
+                {/* Coordination Tax Section */}
+                <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }}
+                    className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center"
+                >
+                    <div className="rounded-3xl overflow-hidden border border-white/[0.05] shadow-[0_0_40px_rgba(0,0,0,0.5)] relative aspect-[16/9] lg:aspect-auto lg:h-[400px] group">
+                        <img
+                            src="/imagery/20251001_1704_Digital Silhouette_remix_01k6fxwevhfpytbf4bx4s4gfza.png"
+                            alt="Digital Coordination Concept"
+                            className="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent opacity-80" />
+                        <div className="absolute inset-0 bg-[#148be6]/10 mix-blend-overlay group-hover:opacity-0 transition-opacity duration-700" />
+                    </div>
+
+                    <div className="p-8 md:p-12 rounded-3xl border border-white/[0.05] bg-white/[0.02] relative overflow-hidden group h-full flex flex-col justify-center">
+                        <div className="absolute inset-0 bg-gradient-to-br from-[#148be6]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                        <div className="absolute -top-32 -right-32 w-64 h-64 bg-[#148be6]/20 rounded-full blur-[80px]" />
+
+                        <h3 className="text-2xl md:text-3xl font-black uppercase tracking-[-0.02em] text-white mb-6 relative z-10">
+                            The <span className="text-[#148be6]">Coordination Tax</span>
+                        </h3>
+                        <div className="space-y-6 text-base md:text-lg leading-relaxed text-zinc-300 relative z-10 font-medium">
+                            <p>
+                                This is the hidden operational cost of systems that work in isolation instead of concert. It compounds quietly across every intake cycle: in delayed cash, missed interventions, manual controls, and transformation initiatives that stall before they deliver.
+                            </p>
+                            <p>
+                                For institutions managing thousands of students across multiple campuses, currencies, and regulatory frameworks, this tax is not a minor overhead. It is a structural drag on growth, governance, and student experience.
+                            </p>
+                        </div>
+                    </div>
+                </motion.div>
             </div>
         </section>
     );
