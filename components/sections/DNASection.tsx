@@ -26,7 +26,7 @@ export default function DNASection() {
                         </h2>
                         <div className="space-y-6 text-base text-zinc-300 leading-relaxed font-medium">
                             <p>
-                                EduFlow360 is built and powered by <strong>ATS5E</strong> (Advanced Technology Systems & Enterprise Engineering). We are a specialized team whose DNA is rooted in institutional-grade finance, risk, and highly regulated operating environments. We&apos;ve spent careers building and orchestrating complex digital systems, high-volume payment flows, and customer-centric architectures for Tier-1 banks, sovereign wealth funds, and enterprise technology groups.
+                                EduFlow360 is built and powered by <strong>ATS5E</strong>. We are a specialized team whose DNA is rooted in institutional-grade finance, risk, and highly regulated operating environments. We&apos;ve spent careers building and orchestrating complex digital systems, high-volume payment flows, and customer-centric architectures for Tier-1 banks, sovereign wealth funds, and enterprise technology groups.
                             </p>
                             <p className="text-white font-bold">
                                 We apply that same rigour to education.
