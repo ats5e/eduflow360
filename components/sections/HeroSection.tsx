@@ -39,7 +39,13 @@ export default function HeroSection() {
             </div>
 
             <div className="relative z-10 max-w-5xl mx-auto w-full pt-16">
-                <motion.h1 custom={0} variants={fadeUp} initial="hidden" animate="visible"
+                <motion.div custom={0} variants={fadeUp} initial="hidden" animate="visible" className="flex justify-center mb-6">
+                    <a href="https://ats5e.vercel.app/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#148be6]/30 bg-[#148be6]/5 text-[#74caff] text-[10px] font-bold tracking-[0.2em] uppercase hover:bg-[#148be6]/15 hover:border-[#148be6]/50 transition-colors backdrop-blur-md">
+                        Powered by ATS5E
+                        <ArrowUpRight className="w-3.5 h-3.5" />
+                    </a>
+                </motion.div>
+                <motion.h1 custom={1} variants={fadeUp} initial="hidden" animate="visible"
                     className="text-[clamp(3rem,7vw,6.5rem)] font-black uppercase leading-[0.9] tracking-[-0.04em]"
                 >
                     <span className="block text-white">Your Systems Work.</span>
@@ -51,7 +57,7 @@ export default function HeroSection() {
                     </span>
                 </motion.h1>
 
-                <motion.div custom={1} variants={fadeUp} initial="hidden" animate="visible"
+                <motion.div custom={2} variants={fadeUp} initial="hidden" animate="visible"
                     className="mt-8 max-w-3xl mx-auto space-y-3 text-center"
                 >
                     <p className="text-lg md:text-xl font-medium text-zinc-300 leading-relaxed text-balance">

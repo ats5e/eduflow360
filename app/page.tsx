@@ -10,7 +10,6 @@ import SolutionSection from "@/components/sections/SolutionSection";
 import JourneySection from "@/components/sections/JourneySection";
 import PillarsSection from "@/components/sections/PillarsSection";
 import ValueSection from "@/components/sections/ValueSection";
-import CaseStudiesSection from "@/components/sections/CaseStudiesSection";
 import DNASection from "@/components/sections/DNASection";
 import EcosystemSection from "@/components/sections/EcosystemSection";
 import PartnersSection from "@/components/sections/PartnersSection";
@@ -29,7 +28,6 @@ export default function EduFlow360Page() {
         <JourneySection />
         <PillarsSection />
         <ValueSection />
-        <CaseStudiesSection />
         <DNASection />
         <EcosystemSection />
         <PartnersSection />

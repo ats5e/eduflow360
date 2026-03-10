@@ -9,8 +9,7 @@ const NAV_LINKS = [
   { label: "The Problem", href: "#challenge" },
   { label: "The Solution", href: "#solution" },
   { label: "Our Impact", href: "#value" },
-  { label: "Our Work", href: "#case-studies" },
-  { label: "Our Team", href: "#dna" },
+  { label: "About Us", href: "#about-us" },
   { label: "Our Partners", href: "#partners" },
 ];
 

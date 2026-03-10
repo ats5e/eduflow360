@@ -13,20 +13,20 @@ const TEAM = [
 
 export default function DNASection() {
     return (
-        <section id="dna" className="relative py-32 px-6 bg-black/[0.4]">
+        <section id="about-us" className="relative py-32 px-6 bg-black/[0.4]">
             <div className="section-divider absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-[600px]" />
 
             <div className="max-w-7xl mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}>
-                        <span className="text-[12px] tracking-[0.32em] uppercase text-zinc-600 font-medium block mb-4">Our Team</span>
+                        <span className="text-[12px] tracking-[0.32em] uppercase text-zinc-600 font-medium block mb-4">About Us</span>
                         <h2 className="text-[clamp(2.4rem,5vw,4rem)] font-black uppercase leading-[0.92] tracking-[-0.04em] mb-8">
-                            Institutional-Grade Architecture.<br />
+                            Powered By ATS5E.<br />
                             <span className="text-[#148be6]">Applied to Education.</span>
                         </h2>
                         <div className="space-y-6 text-base text-zinc-300 leading-relaxed font-medium">
                             <p>
-                                EduFlow360 is built by a team whose DNA is institutional-grade finance, risk, and regulated operating environments. We&apos;ve spent careers in complex systems, high-volume flows, and customer-centric design — in banking, insurance, and enterprise technology.
+                                EduFlow360 is built and powered by <strong>ATS5E</strong> (Advanced Technology Systems & Enterprise Engineering). We are a specialized team whose DNA is rooted in institutional-grade finance, risk, and highly regulated operating environments. We&apos;ve spent careers building and orchestrating complex digital systems, high-volume payment flows, and customer-centric architectures for Tier-1 banks, sovereign wealth funds, and enterprise technology groups.
                             </p>
                             <p className="text-white font-bold">
                                 We apply that same rigour to education.
@@ -40,6 +40,17 @@ export default function DNASection() {
                             <p className="text-[#74caff] font-bold text-lg uppercase tracking-widest pt-4">
                                 That&apos;s the gap we close.
                             </p>
+                            <div className="pt-6">
+                                <a
+                                    href="https://ats5e.vercel.app/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-[11px] font-bold tracking-[0.14em] uppercase text-white bg-[#148be6]/10 border border-[#148be6]/30 hover:bg-[#148be6]/20 transition-all duration-300"
+                                >
+                                    Explore ATS5E Corporate
+                                    <svg className="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17L17 7" /><path d="M7 7h10v10" /></svg>
+                                </a>
+                            </div>
                         </div>
                     </motion.div>
 
