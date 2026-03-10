@@ -64,10 +64,13 @@ export default function HeroSection() {
                     className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4"
                 >
                     <a href="https://ats5e.vercel.app/" target="_blank" rel="noopener noreferrer"
-                        className="group inline-flex items-center justify-center gap-2 px-6 py-2 rounded-full text-[13px] font-bold tracking-[0.14em] uppercase text-white border border-[#148be6]/50 hover:bg-[#148be6]/10 hover:border-[#148be6] transition-all duration-300 whitespace-nowrap shrink-0"
+                        className="relative group inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full text-[13px] font-bold tracking-[0.14em] uppercase text-white border border-[#148be6]/40 bg-[#148be6]/5 hover:bg-[#148be6]/15 hover:border-[#148be6] hover:shadow-[0_0_20px_rgba(20,139,230,0.3)] transition-all duration-300 whitespace-nowrap shrink-0 overflow-hidden"
                     >
-                        <img src="/logo.png" alt="ATS5E Logo" className="h-[36px] w-[auto] object-contain shrink-0" />
-                        <ArrowUpRight className="w-3.5 h-3.5 shrink-0 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/[0.08] to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000 ease-in-out" />
+                        <div className="relative flex items-center justify-center w-[100px] h-[22px]">
+                            <img src="/logo.png" alt="ATS5E Logo" className="absolute w-full h-full object-contain scale-[1.6] origin-center drop-shadow-[0_0_8px_rgba(20,139,230,0.4)]" />
+                        </div>
+                        <ArrowUpRight className="relative z-10 w-4 h-4 shrink-0 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                     </a>
                     <a href="#contact"
                         className="group inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-[13px] font-bold tracking-[0.14em] uppercase text-white transition-all duration-300 hover:shadow-glow-blue-sm whitespace-nowrap shrink-0"

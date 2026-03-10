@@ -43,7 +43,7 @@ const CASE_STUDIES = [
         region: "United Arab Emirates",
         systems: "Banner (SIS), Oracle Fusion (ERP/GL), Standalone AR, Multiple Gateways",
         challenge: "Fragmented student finance architecture creating operational strain during intake. High manual reconciliation between SIS and legacy AR platform. Poor visibility of receivables.",
-        approach: "ATS5E engaged to consolidate receivables into Oracle Fusion using EduFlow360 orchestration. OIC-based architecture connecting Banner, gateways, and Fusion.",
+        approach: "ATS<span className=\"text-[#148be6]\">5E</span> engaged to consolidate receivables into Oracle Fusion using EduFlow360 orchestration. OIC-based architecture connecting Banner, gateways, and Fusion.",
         results: [
             "Legacy AR platform fully decommissioned",
             "Manual reconciliation effort reduced by ~60%",

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import { ArrowUpRight, Menu, X, ExternalLink } from "lucide-react";
+import { ArrowUpRight, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const NAV_LINKS = [
@@ -110,15 +110,7 @@ export default function Navbar() {
           </nav>
 
           <div className="hidden md:flex items-center gap-3">
-            {/* ATS5E Link */}
-            <a
-              href="https://ats5e.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group inline-flex items-center gap-1.5 px-3 lg:px-4 py-2 rounded-full text-[11px] font-bold tracking-[0.14em] uppercase text-zinc-400 hover:text-white border border-white/[0.08] hover:border-white/[0.15] transition-all duration-300"
-            >
-              <img src="/logo.png" alt="ATS5E Logo" className="h-[24px] w-auto" /> <ExternalLink className="w-3 h-3 opacity-70 group-hover:opacity-100 transition-opacity duration-300" />
-            </a>
+
 
             {/* Discovery CTA */}
             <a

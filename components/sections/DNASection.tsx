@@ -21,12 +21,12 @@ export default function DNASection() {
                     <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}>
                         <span className="text-[12px] tracking-[0.32em] uppercase text-zinc-600 font-medium block mb-4">About Us</span>
                         <h2 className="text-[clamp(2.4rem,5vw,4rem)] font-black uppercase leading-[0.92] tracking-[-0.04em] mb-8">
-                            Powered By ATS5E.<br />
+                            Powered By ATS<span className="text-[#148be6]">5E</span>.<br />
                             <span className="text-[#148be6]">Applied to Education.</span>
                         </h2>
                         <div className="space-y-6 text-base text-zinc-300 leading-relaxed font-medium">
                             <p>
-                                EduFlow360 is built and powered by <strong>ATS5E</strong>. We are a specialized team whose DNA is rooted in institutional-grade finance, risk, and highly regulated operating environments. We&apos;ve spent careers building and orchestrating complex digital systems, high-volume payment flows, and customer-centric architectures for Tier-1 banks, sovereign wealth funds, and enterprise technology groups.
+                                EduFlow360 is built and powered by <strong>ATS<span className="text-[#148be6]">5E</span></strong>. We are a specialized team whose DNA is rooted in institutional-grade finance, risk, and highly regulated operating environments. We&apos;ve spent careers building and orchestrating complex digital systems, high-volume payment flows, and customer-centric architectures for Tier-1 banks, sovereign wealth funds, and enterprise technology groups.
                             </p>
                             <p className="text-white font-bold">
                                 We apply that same rigour to education.
@@ -47,7 +47,7 @@ export default function DNASection() {
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-[11px] font-bold tracking-[0.14em] uppercase text-white bg-[#148be6]/10 border border-[#148be6]/30 hover:bg-[#148be6]/20 transition-all duration-300"
                                 >
-                                    Explore ATS5E
+                                    Explore ATS<span className="text-[#148be6]">5E</span>
                                     <svg className="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17L17 7" /><path d="M7 7h10v10" /></svg>
                                 </a>
                             </div>

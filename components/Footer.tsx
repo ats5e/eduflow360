@@ -50,7 +50,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="text-[#148be6] hover:text-[#74caff] transition-colors inline-flex items-center gap-1"
             >
-              ATS5E <ExternalLink className="w-3 h-3" />
+              ATS<span className="text-[#148be6]">5E</span> <ExternalLink className="w-3 h-3" />
             </a>
           </p>
           <div className="flex flex-col gap-2">
@@ -90,7 +90,7 @@ export default function Footer() {
         {/* ATS5E */}
         <div>
           <h4 className="text-sm font-bold tracking-[0.28em] uppercase text-zinc-500 mb-6">
-            ATS5E
+            ATS<span className="text-[#148be6]">5E</span>
           </h4>
           <nav className="flex flex-col gap-4">
             {ATS5E_LINKS.map((l) => (
@@ -113,7 +113,7 @@ export default function Footer() {
         style={{ borderTop: "1px solid rgba(255,255,255,0.06)" }}
       >
         <p className="text-sm tracking-[0.18em] uppercase text-zinc-500 font-medium">
-          © {new Date().getFullYear()} EduFlow360 by ATS5E. All Rights Reserved.
+          © {new Date().getFullYear()} EduFlow360 by ATS<span className="text-[#148be6]">5E</span>. All Rights Reserved.
         </p>
         <p className="text-sm tracking-[0.1em] uppercase text-zinc-500 font-medium">
           Dubai, UAE · Meydan Grandstand, 6th Floor

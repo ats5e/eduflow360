@@ -55,6 +55,14 @@ export default function ChallengeSection() {
                                 For institutions managing thousands of students across multiple campuses, currencies, and regulatory frameworks, this tax is not a minor overhead. It is a structural drag on growth, governance, and student experience.
                             </p>
                         </div>
+
+                        <div className="mt-8 rounded-2xl overflow-hidden border border-white/[0.05] shadow-2xl">
+                            <img
+                                src="/imagery/20251001_1704_Digital Silhouette_remix_01k6fxwevhfpytbf4bx4s4gfza.png"
+                                alt="Digital Coordination Concept"
+                                className="w-full h-[300px] object-cover opacity-80 hover:opacity-100 transition-opacity duration-500"
+                            />
+                        </div>
                     </motion.div>
 
                     <div className="lg:col-span-7">

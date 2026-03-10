@@ -68,16 +68,11 @@ export default function SolutionSection() {
                                 </p>
 
                                 <div className="flex flex-wrap gap-2 mt-auto">
-                                    {layer.tags.slice(0, 3).map(tag => (
+                                    {layer.tags.map(tag => (
                                         <span key={tag} className="px-2.5 py-1 rounded bg-white/[0.04] border border-white/[0.08] text-[10px] uppercase tracking-widest text-[#74caff]">
                                             {tag}
                                         </span>
                                     ))}
-                                    {layer.tags.length > 3 && (
-                                        <span className="px-2.5 py-1 rounded bg-white/[0.04] border border-white/[0.08] text-[10px] uppercase tracking-widest text-zinc-500">
-                                            +{layer.tags.length - 3} more
-                                        </span>
-                                    )}
                                 </div>
                             </motion.div>
                         )
