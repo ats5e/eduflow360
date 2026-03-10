@@ -47,7 +47,7 @@ export default function DNASection() {
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-[11px] font-bold tracking-[0.14em] uppercase text-white bg-[#148be6]/10 border border-[#148be6]/30 hover:bg-[#148be6]/20 transition-all duration-300"
                                 >
-                                    Explore ATS5E Corporate
+                                    Explore ATS5E
                                     <svg className="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17L17 7" /><path d="M7 7h10v10" /></svg>
                                 </a>
                             </div>
