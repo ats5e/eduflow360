@@ -11,6 +11,7 @@ const NAV_LINKS = [
   { label: "Our Impact", href: "#value" },
   { label: "Our Work", href: "#case-studies" },
   { label: "Our Team", href: "#dna" },
+  { label: "Our Partners", href: "#partners" },
 ];
 
 export default function Navbar() {

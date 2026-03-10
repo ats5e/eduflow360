@@ -13,6 +13,7 @@ import ValueSection from "@/components/sections/ValueSection";
 import CaseStudiesSection from "@/components/sections/CaseStudiesSection";
 import DNASection from "@/components/sections/DNASection";
 import EcosystemSection from "@/components/sections/EcosystemSection";
+import PartnersSection from "@/components/sections/PartnersSection";
 import RoadmapSection from "@/components/sections/RoadmapSection";
 import CTASection from "@/components/sections/CTASection";
 
@@ -31,6 +32,7 @@ export default function EduFlow360Page() {
         <CaseStudiesSection />
         <DNASection />
         <EcosystemSection />
+        <PartnersSection />
         <RoadmapSection />
         <CTASection />
       </main>
