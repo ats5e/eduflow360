@@ -19,7 +19,7 @@ export default function DNASection() {
             <div className="max-w-7xl mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}>
-                        <span className="text-[12px] tracking-[0.32em] uppercase text-zinc-600 font-medium block mb-4">Our DNA</span>
+                        <span className="text-[12px] tracking-[0.32em] uppercase text-zinc-600 font-medium block mb-4">Our Team</span>
                         <h2 className="text-[clamp(2.4rem,5vw,4rem)] font-black uppercase leading-[0.92] tracking-[-0.04em] mb-8">
                             Institutional-Grade Architecture.<br />
                             <span className="text-[#148be6]">Applied to Education.</span>

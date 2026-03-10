@@ -6,12 +6,11 @@ import { ArrowUpRight, Menu, X, ExternalLink } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const NAV_LINKS = [
-  { label: "Challenge", href: "#challenge" },
-  { label: "Solution", href: "#solution" },
-  { label: "Journey", href: "#journey" },
-  { label: "Value", href: "#value" },
-  { label: "Case Studies", href: "#case-studies" },
-  { label: "Roadmap", href: "#roadmap" },
+  { label: "The Problem", href: "#challenge" },
+  { label: "Our Solutions", href: "#solution" },
+  { label: "Impact", href: "#value" },
+  { label: "Our Work", href: "#case-studies" },
+  { label: "Our Team", href: "#dna" },
 ];
 
 export default function Navbar() {

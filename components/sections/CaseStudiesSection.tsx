@@ -50,7 +50,7 @@ export default function CaseStudiesSection() {
                 <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}
                     className="text-center max-w-3xl mx-auto mb-20"
                 >
-                    <span className="text-[12px] tracking-[0.32em] uppercase text-zinc-600 font-medium block mb-4">Proven Outcomes</span>
+                    <span className="text-[12px] tracking-[0.32em] uppercase text-zinc-600 font-medium block mb-4">Our Work</span>
                     <h2 className="text-[clamp(2.4rem,5vw,4rem)] font-black uppercase leading-[0.92] tracking-[-0.04em]">
                         Intelligence. <span className="text-[#148be6]">Applied.</span>
                     </h2>

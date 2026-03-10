@@ -28,7 +28,7 @@ export default function ChallengeSection() {
                     <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}
                         className="lg:col-span-5"
                     >
-                        <span className="text-[12px] tracking-[0.32em] uppercase text-zinc-600 font-medium block mb-4">The Challenge</span>
+                        <span className="text-[12px] tracking-[0.32em] uppercase text-zinc-600 font-medium block mb-4">The Problem</span>
                         <h2 className="text-[clamp(2.4rem,5vw,4rem)] font-black uppercase leading-[0.92] tracking-[-0.04em] mb-8">
                             The Coordination Tax Is Quietly <span className="text-[#148be6]">Compounding.</span>
                         </h2>
