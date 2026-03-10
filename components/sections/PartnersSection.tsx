@@ -24,7 +24,7 @@ export default function PartnersSection() {
                 <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}
                     className="text-center max-w-3xl mx-auto mb-20"
                 >
-                    <span className="text-[12px] tracking-[0.32em] uppercase text-zinc-600 font-medium block mb-4">Our Partners</span>
+                    <span className="text-[12px] tracking-[0.32em] uppercase text-zinc-600 font-medium block mb-4">Partners</span>
                     <h2 className="text-[clamp(2.4rem,5vw,4rem)] font-black uppercase leading-[0.92] tracking-[-0.04em] mb-8">
                         The Strategic <span className="text-[#148be6]">Ecosystem.</span>
                     </h2>

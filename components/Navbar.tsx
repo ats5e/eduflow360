@@ -10,7 +10,7 @@ const NAV_LINKS = [
   { label: "The Solution", href: "#solution" },
   { label: "Our Impact", href: "#value" },
   { label: "About Us", href: "#about-us" },
-  { label: "Our Partners", href: "#partners" },
+  { label: "Partners", href: "#partners" },
 ];
 
 export default function Navbar() {
