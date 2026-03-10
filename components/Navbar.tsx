@@ -65,7 +65,7 @@ export default function Navbar() {
               alt="EduFlow360"
               height={70}
               width={250}
-              className="h-[56px] md:h-[68px] w-auto object-contain relative"
+              className="h-[48px] md:h-[56px] lg:h-[60px] w-auto object-contain relative"
               priority
             />
           </a>
@@ -78,10 +78,10 @@ export default function Navbar() {
                 <a
                   key={link.label}
                   href={link.href}
-                  className="relative group px-3 py-2 rounded-full"
+                  className="relative group px-2 lg:px-3 py-2 rounded-full"
                 >
                   <span
-                    className="text-[11px] font-bold tracking-[0.18em] uppercase transition-all duration-200 group-hover:text-[#74caff]"
+                    className="whitespace-nowrap text-[11px] font-bold tracking-[0.18em] uppercase transition-all duration-200 group-hover:text-[#74caff]"
                     style={{
                       color: active ? "#ffffff" : "rgba(161,161,170,0.95)",
                       textShadow: active ? "0 0 12px rgba(116,202,255,0.35)" : "none",
@@ -115,7 +115,7 @@ export default function Navbar() {
               href="https://ats5e.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-[11px] font-bold tracking-[0.14em] uppercase text-zinc-400 hover:text-white border border-white/[0.08] hover:border-white/[0.15] transition-all duration-300"
+              className="inline-flex items-center gap-1.5 px-3 lg:px-4 py-2 rounded-full text-[11px] font-bold tracking-[0.14em] uppercase text-zinc-400 hover:text-white border border-white/[0.08] hover:border-white/[0.15] transition-all duration-300"
             >
               ATS5E <ExternalLink className="w-3 h-3" />
             </a>
@@ -123,7 +123,7 @@ export default function Navbar() {
             {/* Discovery CTA */}
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 px-7 py-3 rounded-full text-[12px] font-black tracking-[0.18em] uppercase text-white transition-all duration-300 hover:shadow-glow-blue-sm active:scale-95"
+              className="inline-flex items-center gap-1.5 px-5 lg:px-6 py-2.5 lg:py-3 rounded-full text-[11px] lg:text-[12px] font-black tracking-[0.18em] uppercase text-white transition-all duration-300 hover:shadow-glow-blue-sm active:scale-95"
               style={{
                 background: "linear-gradient(135deg, #148be6 0%, #0a6bbc 100%)",
                 boxShadow: "0 0 24px rgba(20,139,230,0.3), inset 0 1px 0 rgba(255,255,255,0.18)",
