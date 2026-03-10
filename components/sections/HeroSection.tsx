@@ -91,13 +91,46 @@ export default function HeroSection() {
                     </div>
                 </motion.div>
 
-                {/* Trust Badges */}
+                {/* Trust Badges Marquee */}
                 <motion.div custom={4} variants={fadeUp} initial="hidden" animate="visible"
-                    className="mt-16 flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-60 grayscale"
+                    className="mt-16 w-full overflow-hidden relative"
                 >
-                    {["UiPath", "Newgen", "Quantexa", "Navvia"].map(brand => (
-                        <span key={brand} className="text-xl font-bold tracking-widest uppercase text-zinc-400">{brand}</span>
-                    ))}
+                    {/* Gradient Fade Edges */}
+                    <div className="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-[#050505] to-transparent z-10 pointer-events-none" />
+                    <div className="absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-[#050505] to-transparent z-10 pointer-events-none" />
+
+                    <div className="flex w-[200%] animate-marquee">
+                        {/* First Set */}
+                        <div className="flex w-1/2 justify-around items-center opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+                            {[
+                                "Checkout.png", "DARA.png", "DCNetra.png", "Navvia.webp",
+                                "RAKBANK.png", "Skiply.png", "UiPath.png", "Wio Bank.png"
+                            ].map((logo, idx) => (
+                                <div key={`set1-${idx}`} className="mx-8 flex-shrink-0 flex items-center justify-center">
+                                    <img
+                                        src={`/Eduflow360 Partners/${logo}`}
+                                        alt={logo.split('.')[0]}
+                                        className="max-h-12 max-w-[140px] object-contain"
+                                    />
+                                </div>
+                            ))}
+                        </div>
+                        {/* Duplicate Set for Infinite Loop */}
+                        <div className="flex w-1/2 justify-around items-center opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+                            {[
+                                "Checkout.png", "DARA.png", "DCNetra.png", "Navvia.webp",
+                                "RAKBANK.png", "Skiply.png", "UiPath.png", "Wio Bank.png"
+                            ].map((logo, idx) => (
+                                <div key={`set2-${idx}`} className="mx-8 flex-shrink-0 flex items-center justify-center">
+                                    <img
+                                        src={`/Eduflow360 Partners/${logo}`}
+                                        alt={logo.split('.')[0]}
+                                        className="max-h-12 max-w-[140px] object-contain"
+                                    />
+                                </div>
+                            ))}
+                        </div>
+                    </div>
                 </motion.div>
 
                 <motion.div
