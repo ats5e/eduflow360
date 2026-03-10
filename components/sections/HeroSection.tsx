@@ -108,7 +108,7 @@ export default function HeroSection() {
                             ].map((logo, idx) => (
                                 <div key={`set1-${idx}`} className="mx-8 flex-shrink-0 flex items-center justify-center">
                                     <img
-                                        src={`/Eduflow360 Partners/${logo}`}
+                                        src={`/eduflow-partners/${logo}`}
                                         alt={logo.split('.')[0]}
                                         className="max-h-12 max-w-[140px] object-contain"
                                     />
@@ -123,7 +123,7 @@ export default function HeroSection() {
                             ].map((logo, idx) => (
                                 <div key={`set2-${idx}`} className="mx-8 flex-shrink-0 flex items-center justify-center">
                                     <img
-                                        src={`/Eduflow360 Partners/${logo}`}
+                                        src={`/eduflow-partners/${logo}`}
                                         alt={logo.split('.')[0]}
                                         className="max-h-12 max-w-[140px] object-contain"
                                     />

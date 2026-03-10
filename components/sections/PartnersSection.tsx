@@ -40,7 +40,7 @@ export default function PartnersSection() {
                         >
                             <div className="h-20 w-full mb-6 relative flex items-center justify-center grayscale group-hover:grayscale-0 transition-all duration-500">
                                 <Image
-                                    src={`/EduFlow360 Partners/${partner.logo}`}
+                                    src={`/eduflow-partners/${partner.logo}`}
                                     alt={partner.name}
                                     fill
                                     className="object-contain"
