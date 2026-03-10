@@ -27,11 +27,11 @@ export default function EduFlow360Page() {
         <SolutionSection />
         <JourneySection />
         <PillarsSection />
+        <RoadmapSection />
         <ValueSection />
         <DNASection />
         <EcosystemSection />
         <PartnersSection />
-        <RoadmapSection />
         <CTASection />
       </main>
 

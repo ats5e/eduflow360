@@ -29,8 +29,7 @@ const PHASES = [
 
 export default function RoadmapSection() {
     return (
-        <section id="roadmap" className="relative py-32 px-6 bg-black/[0.3]">
-            <div className="section-divider absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-[600px]" />
+        <section id="roadmap" className="relative pb-32 px-6">
 
             <div className="max-w-5xl mx-auto">
                 <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}
