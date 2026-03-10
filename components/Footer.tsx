@@ -30,7 +30,7 @@ export default function Footer() {
         <div className="md:col-span-2 flex flex-col items-start">
           <a href="#" className="inline-flex -ml-2">
             <Image
-              src="/EduFlow 360 Logo PNG V3.png"
+              src="/EduFlow 360 Logo PNG V5.png"
               alt="EduFlow360"
               height={50}
               width={200}
