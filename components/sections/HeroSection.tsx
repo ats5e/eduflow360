@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowUpRight, ChevronDown } from "lucide-react";
 import EduFlowHero from "../EduFlowHero";
 import { fadeUp } from "@/lib/motion";
+import Image from "next/image";
 
 export default function HeroSection() {
     return (
@@ -68,7 +69,7 @@ export default function HeroSection() {
                     >
                         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/[0.08] to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000 ease-in-out" />
                         <div className="relative flex items-center justify-center w-[100px] h-[22px]">
-                            <img src="/logo.png" alt="ATS5E Logo" className="absolute w-full h-full object-contain scale-[1.6] origin-center drop-shadow-[0_0_8px_rgba(20,139,230,0.4)]" />
+                            <Image src="/logo.png" alt="ATS5E Logo" fill className="object-contain scale-[1.6] origin-center drop-shadow-[0_0_8px_rgba(20,139,230,0.4)]" />
                         </div>
                         <ArrowUpRight className="relative z-10 w-4 h-4 shrink-0 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                     </a>
@@ -117,10 +118,12 @@ export default function HeroSection() {
                                 "RAKBANK.png", "Skiply.png", "UiPath.png", "Wio Bank.png"
                             ].map((logo, idx) => (
                                 <div key={`set1-${idx}`} className="flex-shrink-0 flex items-center justify-center w-[140px]">
-                                    <img
+                                    <Image
                                         src={`/eduflow-partners/${logo}`}
                                         alt={logo.split('.')[0]}
-                                        className="max-h-[50px] max-w-full object-contain"
+                                        width={140}
+                                        height={50}
+                                        className="object-contain"
                                     />
                                 </div>
                             ))}
@@ -132,10 +135,12 @@ export default function HeroSection() {
                                 "RAKBANK.png", "Skiply.png", "UiPath.png", "Wio Bank.png"
                             ].map((logo, idx) => (
                                 <div key={`set2-${idx}`} className="flex-shrink-0 flex items-center justify-center w-[140px]">
-                                    <img
+                                    <Image
                                         src={`/eduflow-partners/${logo}`}
                                         alt={logo.split('.')[0]}
-                                        className="max-h-[50px] max-w-full object-contain"
+                                        width={140}
+                                        height={50}
+                                        className="object-contain"
                                     />
                                 </div>
                             ))}

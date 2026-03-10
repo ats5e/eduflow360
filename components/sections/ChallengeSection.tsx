@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { fadeUp } from "@/lib/motion";
+import Image from "next/image";
 
 const FRICTION_POINTS = [
     {
@@ -87,10 +88,11 @@ export default function ChallengeSection() {
                     className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center"
                 >
                     <div className="rounded-3xl overflow-hidden border border-white/[0.05] shadow-[0_0_40px_rgba(0,0,0,0.5)] relative aspect-[16/9] lg:aspect-auto lg:h-[400px] group">
-                        <img
+                        <Image
                             src="/imagery/20251001_1704_Digital Silhouette_remix_01k6fxwevhfpytbf4bx4s4gfza.png"
                             alt="Digital Coordination Concept"
-                            className="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105"
+                            fill
+                            className="object-cover opacity-70 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent opacity-80" />
                         <div className="absolute inset-0 bg-[#148be6]/10 mix-blend-overlay group-hover:opacity-0 transition-opacity duration-700" />
