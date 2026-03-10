@@ -66,7 +66,7 @@ export default function HeroSection() {
                         className="group inline-flex items-center gap-2 px-8 py-4 rounded-full text-[13px] font-bold tracking-[0.14em] uppercase text-white transition-all duration-300 hover:shadow-glow-blue-sm"
                         style={{ background: "#148be6" }}
                     >
-                        Book a Discovery Call
+                        Contact Us
                         <ArrowUpRight className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                     </a>
                 </motion.div>
