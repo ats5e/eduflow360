@@ -39,12 +39,7 @@ export default function HeroSection() {
             </div>
 
             <div className="relative z-10 max-w-5xl mx-auto w-full pt-16">
-                <motion.div custom={0} variants={fadeUp} initial="hidden" animate="visible" className="flex justify-center mb-6">
-                    <a href="https://ats5e.vercel.app/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#148be6]/30 bg-[#148be6]/5 text-[#74caff] text-[10px] font-bold tracking-[0.2em] uppercase hover:bg-[#148be6]/15 hover:border-[#148be6]/50 transition-colors backdrop-blur-md">
-                        Powered by ATS5E
-                        <ArrowUpRight className="w-3.5 h-3.5" />
-                    </a>
-                </motion.div>
+
                 <motion.h1 custom={1} variants={fadeUp} initial="hidden" animate="visible"
                     className="text-[clamp(3rem,7vw,6.5rem)] font-black uppercase leading-[0.9] tracking-[-0.04em]"
                 >
@@ -68,6 +63,12 @@ export default function HeroSection() {
                 <motion.div custom={2} variants={fadeUp} initial="hidden" animate="visible"
                     className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4"
                 >
+                    <a href="https://ats5e.vercel.app/" target="_blank" rel="noopener noreferrer"
+                        className="group inline-flex items-center gap-2 px-8 py-4 rounded-full text-[13px] font-bold tracking-[0.14em] uppercase text-white border border-[#148be6]/50 hover:bg-[#148be6]/10 hover:border-[#148be6] transition-all duration-300"
+                    >
+                        ATS<span className="text-[#148be6]">5E</span>
+                        <ArrowUpRight className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                    </a>
                     <a href="#contact"
                         className="group inline-flex items-center gap-2 px-8 py-4 rounded-full text-[13px] font-bold tracking-[0.14em] uppercase text-white transition-all duration-300 hover:shadow-glow-blue-sm"
                         style={{ background: "#148be6" }}
