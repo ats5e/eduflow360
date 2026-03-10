@@ -61,7 +61,7 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#" className="shrink-0 relative rounded-lg overflow-hidden">
             <Image
-              src="/EduFlow 360 Logo PNG New File.png"
+              src="/EduFlow 360 Logo PNG V2.png"
               alt="EduFlow360"
               height={70}
               width={250}
