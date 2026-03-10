@@ -105,33 +105,33 @@ export default function HeroSection() {
                     <div className="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-[#050505] to-transparent z-10 pointer-events-none" />
                     <div className="absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-[#050505] to-transparent z-10 pointer-events-none" />
 
-                    <div className="flex w-[200%] animate-marquee">
+                    <div className="flex w-max animate-marquee">
                         {/* First Set */}
-                        <div className="flex w-1/2 justify-around items-center opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+                        <div className="flex shrink-0 items-center justify-around gap-20 px-10 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500">
                             {[
                                 "Checkout.png", "DARA.png", "DCNetra.png", "Navvia.webp",
                                 "RAKBANK.png", "Skiply.png", "UiPath.png", "Wio Bank.png"
                             ].map((logo, idx) => (
-                                <div key={`set1-${idx}`} className="mx-8 flex-shrink-0 flex items-center justify-center">
+                                <div key={`set1-${idx}`} className="flex-shrink-0 flex items-center justify-center w-[140px]">
                                     <img
                                         src={`/eduflow-partners/${logo}`}
                                         alt={logo.split('.')[0]}
-                                        className="max-h-12 max-w-[140px] object-contain"
+                                        className="max-h-[50px] max-w-full object-contain"
                                     />
                                 </div>
                             ))}
                         </div>
                         {/* Duplicate Set for Infinite Loop */}
-                        <div className="flex w-1/2 justify-around items-center opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+                        <div className="flex shrink-0 items-center justify-around gap-20 px-10 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500" aria-hidden="true">
                             {[
                                 "Checkout.png", "DARA.png", "DCNetra.png", "Navvia.webp",
                                 "RAKBANK.png", "Skiply.png", "UiPath.png", "Wio Bank.png"
                             ].map((logo, idx) => (
-                                <div key={`set2-${idx}`} className="mx-8 flex-shrink-0 flex items-center justify-center">
+                                <div key={`set2-${idx}`} className="flex-shrink-0 flex items-center justify-center w-[140px]">
                                     <img
                                         src={`/eduflow-partners/${logo}`}
                                         alt={logo.split('.')[0]}
-                                        className="max-h-12 max-w-[140px] object-contain"
+                                        className="max-h-[50px] max-w-full object-contain"
                                     />
                                 </div>
                             ))}
