@@ -66,7 +66,7 @@ export default function HeroSection() {
                     <a href="https://ats5e.vercel.app/" target="_blank" rel="noopener noreferrer"
                         className="group inline-flex items-center gap-2 px-8 py-4 rounded-full text-[13px] font-bold tracking-[0.14em] uppercase text-white border border-[#148be6]/50 hover:bg-[#148be6]/10 hover:border-[#148be6] transition-all duration-300"
                     >
-                        ATS<span className="text-[#148be6]">5E</span>
+                        <img src="/logo.png" alt="ATS5E Logo" className="h-[18px] w-auto brightness-0 invert" />
                         <ArrowUpRight className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                     </a>
                     <a href="#contact"
