@@ -117,7 +117,7 @@ export default function Navbar() {
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-1.5 px-3 lg:px-4 py-2 rounded-full text-[11px] font-bold tracking-[0.14em] uppercase text-zinc-400 hover:text-white border border-white/[0.08] hover:border-white/[0.15] transition-all duration-300"
             >
-              <img src="/logo.png" alt="ATS5E Logo" className="h-[12px] w-auto opacity-70 group-hover:opacity-100 brightness-0 invert transition-opacity duration-300" /> <ExternalLink className="w-3 h-3 opacity-70 group-hover:opacity-100 transition-opacity duration-300" />
+              <img src="/logo.png" alt="ATS5E Logo" className="h-[24px] w-auto" /> <ExternalLink className="w-3 h-3 opacity-70 group-hover:opacity-100 transition-opacity duration-300" />
             </a>
 
             {/* Discovery CTA */}

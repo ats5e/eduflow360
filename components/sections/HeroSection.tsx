@@ -64,9 +64,9 @@ export default function HeroSection() {
                     className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4"
                 >
                     <a href="https://ats5e.vercel.app/" target="_blank" rel="noopener noreferrer"
-                        className="group inline-flex items-center gap-2 px-8 py-4 rounded-full text-[13px] font-bold tracking-[0.14em] uppercase text-white border border-[#148be6]/50 hover:bg-[#148be6]/10 hover:border-[#148be6] transition-all duration-300"
+                        className="group inline-flex items-center gap-2 px-6 py-2 rounded-full text-[13px] font-bold tracking-[0.14em] uppercase text-white border border-[#148be6]/50 hover:bg-[#148be6]/10 hover:border-[#148be6] transition-all duration-300"
                     >
-                        <img src="/logo.png" alt="ATS5E Logo" className="h-[18px] w-auto brightness-0 invert" />
+                        <img src="/logo.png" alt="ATS5E Logo" className="h-[36px] w-auto" />
                         <ArrowUpRight className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                     </a>
                     <a href="#contact"
