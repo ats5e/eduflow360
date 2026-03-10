@@ -5,9 +5,9 @@ import { fadeUp } from "@/lib/motion";
 import Image from "next/image";
 
 const TEAM = [
-    { name: "Jack Donaldson", role: "Strategy & Architecture", image: "/Jack.png", bio: "A dynamic marketing and communications leader with a proven record of driving brand growth, elevating storytelling, and delivering measurable results." },
     { name: "Kumar Jaisingh", role: "Engineering & Orchestration", image: "/Kumar.png", bio: "Kumar leads product strategy and execution, bringing 28 years of experience bridging high-level strategy with on-the-ground delivery." },
     { name: "William Higgins", role: "Financial Operations", image: "/William.png", bio: "William has spent the last decade deeply embedded in the GCC financial sector, partnering with all of the major banks in the region." },
+    { name: "Jack Donaldson", role: "Strategy & Architecture", image: "/Jack.png", bio: "A dynamic marketing and communications leader with a proven record of driving brand growth, elevating storytelling, and delivering measurable results." },
     { name: "Ayesha Azhar", role: "Transformation Delivery", image: "/Ayesha.png", bio: "Brings over four years of experience establishing and managing best-in-class Project Management Offices, with a focus on quality assurance." }
 ];
 
