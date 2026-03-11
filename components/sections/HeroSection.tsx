@@ -104,23 +104,24 @@ export default function HeroSection() {
 
                 {/* Elevated Case Study Quote */}
                 <motion.div custom={4} variants={fadeUp} initial="hidden" animate="visible"
-                    className="mt-16 max-w-4xl mx-auto px-6 relative z-10"
+                    className="mt-24 mb-16 max-w-5xl mx-auto px-6 relative z-10 text-center"
                 >
-                    <div className="relative p-8 md:p-10 rounded-3xl border border-[#148be6]/20 bg-gradient-to-br from-[#148be6]/5 to-transparent overflow-hidden text-center group">
-                        <div className="absolute inset-0 bg-[#148be6]/5 mix-blend-overlay group-hover:opacity-100 transition-opacity duration-700 opacity-50" />
-                        <div className="absolute -top-24 -right-24 w-48 h-48 bg-[#148be6]/20 rounded-full blur-[80px] group-hover:bg-[#148be6]/30 transition-colors duration-700" />
-                        <div className="absolute -bottom-24 -left-24 w-48 h-48 bg-[#148be6]/20 rounded-full blur-[80px] group-hover:bg-[#148be6]/30 transition-colors duration-700" />
+                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[200px] md:text-[300px] leading-none text-white/[0.03] font-serif select-none pointer-events-none">
+                        &quot;
+                    </div>
 
-                        <p className="relative z-10 text-xl md:text-2xl font-light leading-relaxed text-white mb-6 italic">
-                            &quot;EduFlow360™ connected what we already had — and within one term, our finance team was working on strategy instead of spreadsheets.&quot;
-                        </p>
-                        <div className="relative z-10 flex items-center justify-center gap-4">
-                            <div className="h-px w-8 bg-[#148be6]/50" />
-                            <span className="text-sm tracking-widest uppercase text-[#74caff] font-semibold">
-                                Chief Operating Officer, Multi-Campus School Group
-                            </span>
-                            <div className="h-px w-8 bg-[#148be6]/50" />
-                        </div>
+                    <p className="relative z-10 text-2xl md:text-4xl lg:text-5xl font-black tracking-tight leading-tight text-white mb-8 drop-shadow-2xl">
+                        &quot;EduFlow360™ connected what we already had — and within one term, <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#148be6] to-[#74caff]">our finance team was working on strategy instead of spreadsheets.</span>&quot;
+                    </p>
+
+                    <div className="relative z-10 flex flex-col items-center justify-center gap-2">
+                        <div className="h-px w-12 bg-gradient-to-r from-transparent via-[#148be6] to-transparent mb-2" />
+                        <span className="text-sm md:text-base tracking-[0.2em] uppercase text-white font-bold">
+                            Chief Operating Officer
+                        </span>
+                        <span className="text-xs tracking-[0.15em] uppercase text-zinc-400 font-medium">
+                            Multi-Campus School Group
+                        </span>
                     </div>
                 </motion.div>
 

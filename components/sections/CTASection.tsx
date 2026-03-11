@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { fadeUp } from "@/lib/motion";
-import { ArrowUpRight, Download } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 
 export default function CTASection() {
@@ -44,11 +44,6 @@ export default function CTASection() {
                                 style={{ background: "#148be6" }}
                             >
                                 Contact Us <ArrowUpRight className="w-3.5 h-3.5" />
-                            </a>
-                            <a href="#"
-                                className="inline-flex items-center justify-center w-full sm:w-auto gap-2 px-10 py-4 rounded-full text-[13px] font-bold tracking-[0.14em] uppercase text-zinc-300 bg-white/[0.05] border border-white/[0.1] hover:bg-white/[0.1] hover:text-white transition-all duration-300"
-                            >
-                                Download Overview <Download className="w-3.5 h-3.5" />
                             </a>
                         </div>
                     </div>
