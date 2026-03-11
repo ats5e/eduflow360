@@ -8,6 +8,7 @@ import HeroSection from "@/components/sections/HeroSection";
 import ChallengeSection from "@/components/sections/ChallengeSection";
 import SolutionSection from "@/components/sections/SolutionSection";
 import JourneySection from "@/components/sections/JourneySection";
+import BuyerPersonaSection from "@/components/sections/BuyerPersonaSection";
 import PillarsSection from "@/components/sections/PillarsSection";
 import ValueSection from "@/components/sections/ValueSection";
 import DNASection from "@/components/sections/DNASection";
@@ -26,6 +27,7 @@ export default function EduFlow360Page() {
         <ChallengeSection />
         <SolutionSection />
         <JourneySection />
+        <BuyerPersonaSection />
         <PillarsSection />
         <RoadmapSection />
         <ValueSection />

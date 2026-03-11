@@ -77,7 +77,7 @@ export default function HeroSection() {
                         className="group inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-[13px] font-bold tracking-[0.14em] uppercase text-white transition-all duration-300 hover:shadow-glow-blue-sm whitespace-nowrap shrink-0"
                         style={{ background: "#148be6" }}
                     >
-                        Contact Us
+                        Book a Deep Dive
                         <ArrowUpRight className="w-3.5 h-3.5 shrink-0 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                     </a>
                 </motion.div>
@@ -102,8 +102,30 @@ export default function HeroSection() {
                     </div>
                 </motion.div>
 
-                {/* Trust Badges Marquee */}
+                {/* Elevated Case Study Quote */}
                 <motion.div custom={4} variants={fadeUp} initial="hidden" animate="visible"
+                    className="mt-16 max-w-4xl mx-auto px-6 relative z-10"
+                >
+                    <div className="relative p-8 md:p-10 rounded-3xl border border-[#148be6]/20 bg-gradient-to-br from-[#148be6]/5 to-transparent overflow-hidden text-center group">
+                        <div className="absolute inset-0 bg-[#148be6]/5 mix-blend-overlay group-hover:opacity-100 transition-opacity duration-700 opacity-50" />
+                        <div className="absolute -top-24 -right-24 w-48 h-48 bg-[#148be6]/20 rounded-full blur-[80px] group-hover:bg-[#148be6]/30 transition-colors duration-700" />
+                        <div className="absolute -bottom-24 -left-24 w-48 h-48 bg-[#148be6]/20 rounded-full blur-[80px] group-hover:bg-[#148be6]/30 transition-colors duration-700" />
+
+                        <p className="relative z-10 text-xl md:text-2xl font-light leading-relaxed text-white mb-6 italic">
+                            &quot;EduFlow360™ connected what we already had — and within one term, our finance team was working on strategy instead of spreadsheets.&quot;
+                        </p>
+                        <div className="relative z-10 flex items-center justify-center gap-4">
+                            <div className="h-px w-8 bg-[#148be6]/50" />
+                            <span className="text-sm tracking-widest uppercase text-[#74caff] font-semibold">
+                                Chief Operating Officer, Multi-Campus School Group
+                            </span>
+                            <div className="h-px w-8 bg-[#148be6]/50" />
+                        </div>
+                    </div>
+                </motion.div>
+
+                {/* Trust Badges Marquee */}
+                <motion.div custom={5} variants={fadeUp} initial="hidden" animate="visible"
                     className="mt-16 w-full overflow-hidden relative"
                 >
                     {/* Gradient Fade Edges */}
