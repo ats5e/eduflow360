@@ -41,7 +41,7 @@ export default function EcosystemSection() {
                         </div>
                         <h3 className="text-xl font-bold uppercase tracking-tight text-white mb-4">For Banks & PSPs</h3>
                         <p className="text-zinc-400 font-medium leading-relaxed">
-                            Embedded financial relationships across core merchant flows — from collections to payroll to supplier payments. Supplier flow data feeds SME banking acquisition. Parent payment behaviour informs retail lending and card product positioning. EduFlow360 creates structured access to transaction-rich, lifecycle-driven education merchants.
+                            Embedded financial relationships across core merchant flows — from collections to payroll to supplier payments. Supplier flow data feeds SME banking acquisition. Parent payment behaviour informs retail lending and card product positioning. EduFlow360™ creates structured access to transaction-rich, lifecycle-driven education merchants.
                         </p>
                     </motion.div>
 
@@ -53,7 +53,7 @@ export default function EcosystemSection() {
                         </div>
                         <h3 className="text-xl font-bold uppercase tracking-tight text-white mb-4">For IT & Platform Vendors</h3>
                         <p className="text-zinc-400 font-medium leading-relaxed">
-                            Higher platform stickiness. Fewer churn conversations. You remain the system of record — and EduFlow360 makes your platform more valuable to the institution, not less. Our orchestration layer enhances your position by extending the value your system delivers across the full student lifecycle.
+                            Higher platform stickiness. Fewer churn conversations. You remain the system of record — and EduFlow360™ makes your platform more valuable to the institution, not less. Our orchestration layer enhances your position by extending the value your system delivers across the full student lifecycle.
                         </p>
                     </motion.div>
                 </div>

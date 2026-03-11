@@ -57,7 +57,7 @@ export default function HeroSection() {
                     className="mt-8 max-w-3xl mx-auto space-y-3 text-center"
                 >
                     <p className="text-lg md:text-xl font-medium text-zinc-300 leading-relaxed text-balance">
-                        EduFlow360 is the intelligence layer that orchestrates your SIS, LMS, and ERP into one coordinated operation — delivering financial visibility, operational agility, and seamless student journeys, without replacing a single platform.
+                        EduFlow360™ is the intelligence layer that orchestrates your SIS, LMS, and ERP into one coordinated operation — delivering financial visibility, operational agility, and seamless student journeys, without replacing a single platform.
                     </p>
                 </motion.div>
 

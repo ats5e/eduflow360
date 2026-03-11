@@ -29,7 +29,7 @@ export default function PartnersSection() {
                         The Strategic <span className="text-[#148be6]">Ecosystem.</span>
                     </h2>
                     <p className="text-lg font-medium text-zinc-300 leading-relaxed">
-                        EduFlow360 does not operate in isolation. We work alongside global leaders in banking, payments, and automation to orchestrate a seamless financial ecosystem for your institution.
+                        EduFlow360™ does not operate in isolation. We work alongside global leaders in banking, payments, and automation to orchestrate a seamless financial ecosystem for your institution.
                     </p>
                 </motion.div>
 

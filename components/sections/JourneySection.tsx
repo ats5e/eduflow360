@@ -52,7 +52,7 @@ export default function JourneySection() {
                         <span className="text-[#148be6]">The Student Lifecycle</span>
                     </h2>
                     <p className="text-base text-zinc-400 max-w-2xl mx-auto font-medium">
-                        Every stage of the student journey involves multiple systems, teams, and financial events. EduFlow360 ensures they act in concert — automatically, accurately, and in real time.
+                        Every stage of the student journey involves multiple systems, teams, and financial events. EduFlow360™ ensures they act in concert — automatically, accurately, and in real time.
                     </p>
                 </motion.div>
 

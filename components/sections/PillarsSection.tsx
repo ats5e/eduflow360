@@ -19,7 +19,7 @@ export default function PillarsSection() {
                         <span className="text-[#148be6]">One Coordinated Outcome.</span>
                     </h2>
                     <p className="text-base text-zinc-400 font-medium">
-                        EduFlow360 can be deployed as a consulting lens, an execution layer, or both — together or independently, based on your institutional priorities.
+                        EduFlow360™ can be deployed as a consulting lens, an execution layer, or both — together or independently, based on your institutional priorities.
                     </p>
                 </motion.div>
 

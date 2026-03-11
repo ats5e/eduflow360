@@ -38,7 +38,7 @@ export default function SolutionSection() {
                             Orchestrate. <span className="text-[#148be6]">Don&apos;t Replace.</span>
                         </h2>
                         <p className="text-lg font-medium text-zinc-300 leading-relaxed">
-                            EduFlow360 is a verticalized intelligence and flow orchestration framework built specifically for education.
+                            EduFlow360™ is a verticalized intelligence and flow orchestration framework built specifically for education.
                             <strong> It does not replace your platforms. It makes them work as one.</strong><br /><br />
                             It sits above your existing SIS, LMS, ERP, and CRM — connecting them through an event-driven architecture that coordinates operational and financial flows in real time. The result: every system acts in concert at the right moment, triggered by the business events that actually matter.
                         </p>
@@ -91,7 +91,7 @@ export default function SolutionSection() {
                             What we are — and what we are not
                         </h4>
                         <p className="text-xl md:text-2xl font-medium text-white leading-relaxed mb-6">
-                            EduFlow360 is a business intelligence and orchestration layer. It optimises financial flows and creates value for merchants, banks, and platform vendors.
+                            EduFlow360™ is a business intelligence and orchestration layer. It optimises financial flows and creates value for merchants, banks, and platform vendors.
                         </p>
                         <p className="text-lg text-zinc-400 font-medium">
                             It is <strong className="text-zinc-200">not an ERP</strong>. Not a SIS. Not a LMS. Not a system replacement. Not a competing integrator. <strong className="text-white">Your platforms stay.</strong> Your vendors stay. Your data stays where it belongs. We make it all work together.

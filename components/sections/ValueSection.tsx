@@ -32,7 +32,7 @@ const IMPACT_METRICS = [
         title: "Controls Preserved",
         metric: "100%",
         label: "auditable governance",
-        description: "Financial and academic controls remain fully intact and auditable. EduFlow360 strengthens governance by making controls visible, automated, and traceable — not by bypassing them."
+        description: "Financial and academic controls remain fully intact and auditable. EduFlow360™ strengthens governance by making controls visible, automated, and traceable — not by bypassing them."
     }
 ];
 
@@ -43,7 +43,7 @@ const CASE_STUDIES = [
         region: "United Arab Emirates",
         systems: "Banner (SIS), Oracle Fusion (ERP/GL), Standalone AR, Multiple Gateways",
         challenge: "Fragmented student finance architecture creating operational strain during intake. High manual reconciliation between SIS and legacy AR platform. Poor visibility of receivables.",
-        approach: "ATS<span className=\"text-[#148be6]\">5E</span> engaged to consolidate receivables into Oracle Fusion using EduFlow360 orchestration. OIC-based architecture connecting Banner, gateways, and Fusion.",
+        approach: "ATS<span className=\"text-[#148be6]\">5E</span> engaged to consolidate receivables into Oracle Fusion using EduFlow360™ orchestration. OIC-based architecture connecting Banner, gateways, and Fusion.",
         results: [
             "Legacy AR platform fully decommissioned",
             "Manual reconciliation effort reduced by ~60%",
@@ -60,14 +60,14 @@ const CASE_STUDIES = [
         region: "South Pacific",
         systems: "ISAMS (SIS), Xero (Finance), Canvas (LMS), Standalone platforms",
         challenge: "Eight campuses with disconnected systems. 3.5 FTEs spent confirming fees across spreadsheets. Parents navigating multiple payment portals for tuition and ancillary services.",
-        approach: "EduFlow360 deployed as an orchestration layer above ISAMS, Xero, and Canvas. Automated invoicing, unified parent portal, and group-wide financial consolidation.",
+        approach: "EduFlow360™ deployed as an orchestration layer above ISAMS, Xero, and Canvas. Automated invoicing, unified parent portal, and group-wide financial consolidation.",
         results: [
             "3.5 FTE equivalent of manual effort eliminated",
             "18% increase in ancillary service revenue",
             "35% reduction in overdue fee balances",
             "Monthly financial consolidation reduced from 4 days to real-time"
         ],
-        quote: "EduFlow360 connected what we already had — and within one term, our finance team was working on strategy instead of spreadsheets.",
+        quote: "EduFlow360™ connected what we already had — and within one term, our finance team was working on strategy instead of spreadsheets.",
         quoteAuthor: "Chief Operating Officer, Multi-Campus School Group",
         image: "/imagery/20251001_1710_High-Resolution Regeneration_remix_01k6fy6mzfemqtbq24ya38djw1.png"
     }

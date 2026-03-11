@@ -30,15 +30,15 @@ export default function Footer() {
         <div className="md:col-span-2 flex flex-col items-start">
           <a href="#" className="inline-flex -ml-2">
             <Image
-              src="/EduFlow 360 Logo PNG V5.png"
-              alt="EduFlow360"
+              src="/EduFlow 360 Logo PNG TM.png"
+              alt="EduFlow360™"
               height={50}
               width={200}
               className="h-12 w-auto object-contain opacity-100 mb-6"
             />
           </a>
           <p className="text-sm font-medium leading-relaxed text-zinc-300 max-w-sm mb-3">
-            EduFlow360 is the intelligence layer that orchestrates your SIS, LMS, and ERP
+            EduFlow360™ is the intelligence layer that orchestrates your SIS, LMS, and ERP
             into one coordinated operation — delivering financial visibility, operational
             agility, and seamless student journeys.
           </p>
@@ -113,7 +113,7 @@ export default function Footer() {
         style={{ borderTop: "1px solid rgba(255,255,255,0.06)" }}
       >
         <p className="text-sm tracking-[0.18em] uppercase text-zinc-500 font-medium">
-          © {new Date().getFullYear()} EduFlow360 by ATS<span className="text-[#148be6]">5E</span>. All Rights Reserved.
+          © {new Date().getFullYear()} EduFlow360™ by ATS<span className="text-[#148be6]">5E</span>. All Rights Reserved.
         </p>
         <p className="text-sm tracking-[0.1em] uppercase text-zinc-500 font-medium">
           Dubai, UAE · Meydan Grandstand, 6th Floor
