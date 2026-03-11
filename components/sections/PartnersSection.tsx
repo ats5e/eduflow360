@@ -6,13 +6,10 @@ import Image from "next/image";
 
 const PARTNERS = [
     { name: "Checkout.com", logo: "Checkout.png", description: "Global payment orchestration, enabling seamless cross-border acquiring and rapid settlement for international student cohorts." },
-    { name: "RAKBANK", logo: "RAKBANK.png", description: "Strategic banking partner providing robust API-driven financial infrastructure, split-settlement capabilities, and compliant liquidity management in the GCC." },
-    { name: "Wio Bank", logo: "Wio Bank.png", description: "Next-generation digital banking platform powering intelligent corporate accounts, instant payments, and embedded finance for the education sector." },
     { name: "UiPath", logo: "UiPath.png", description: "Enterprise robotic process automation (RPA) engine, driving the intelligent bots that execute high-volume data entry and reconciliation across legacy SIS/ERP boundaries." },
     { name: "DARA", logo: "DARA.png", description: "Specialist deployment and integration partner, ensuring rapid time-to-value for complex enterprise architecture implementations." },
     { name: "DCNetra", logo: "DCNetra.png", description: "Advanced data governance and reporting compliance partner, securing institutional data flows." },
     { name: "Navvia", logo: "Navvia.webp", description: "Business process management and mapping platform, used to design and enforce the operational control layers we deploy." },
-    { name: "Skiply", logo: "Skiply.png", description: "Integrated digital payments partner focused on transforming the tuition and ancillary fee collection experience for parents." },
 ];
 
 export default function PartnersSection() {
@@ -43,7 +40,7 @@ export default function PartnersSection() {
                                     src={`/eduflow-partners/${partner.logo}`}
                                     alt={partner.name}
                                     fill
-                                    className="object-contain"
+                                    className={`object-contain ${partner.name === 'Checkout.com' ? 'scale-125' : ''}`}
                                 />
                             </div>
                             <h3 className="text-lg font-bold text-white mb-3 uppercase tracking-wider">{partner.name}</h3>
